@@ -1,0 +1,118 @@
+#processar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .9;
+	background-color: #000;
+	z-index: 2000;
+	display: none;
+}
+
+#processar div {
+	top: 36%;
+	left: 50%;
+	margin-left: -200px; /* A metade de sua largura. */
+	position: absolute;
+	width: 400px;
+	color: #FFF;
+	text-align: center;
+}
+
+.cropper-example-1{
+	max-height: 470px!important;
+}
+
+.img-70{
+	width: 70%!important;
+	max-width: inherit!important;
+}
+.img-55px{
+	width: 55px!important;
+	height: 55px!important;
+}
+.message-pesquisa{
+	margin-left: 68px!important;
+    margin-top: -52px!important;
+}
+.box_usuario{
+	margin-bottom: 0px!important;
+}
+.hr_usuario{
+	margin-top: 3px!important;
+	margin-bottom: 9px!important;
+}
+.user-panel>.info{
+	position: initial;
+    left: initial; 
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.input-perfil{
+	border-top: solid 0px;
+	border-right: solid 0px;
+	border-left: solid 0px;
+}
+
+.label-perfil{
+	margin-bottom: 0px;
+}
+
+.btn-perfil{
+	background-color: rgb(255, 255, 255);
+    border-bottom: solid 1px #d2d6de;
+}
+
+.has-error-pub ::-webkit-input-placeholder {
+   color: #dd4b39!important;
+}
+
+.has-error-pub :-moz-placeholder { /* Firefox 18- */
+   color: #dd4b39!important;  
+}
+
+.has-error-pub ::-moz-placeholder {  /* Firefox 19+ */
+   color: #dd4b39!important;  
+}
+
+.has-error-pub :-ms-input-placeholder {  
+   color: #dd4b39!important;  
+}
+
+.login-box, .register-box{
+    width: 35%;
+    margin: 0%!important;
+}
+
+.login-box,.register-box{
+	position: relative;
+	float: left;
+	height: 100%;
+	background-color: #FFF;
+}
+
+.box-widget {
+	height: 100%;
+	display: inline!important;
+}
+
+html, body{
+	height: 100%;
+	display: inline!important;
+}
+.imagemBackgroun{
+	background-image: url("../../assets/img/plano_de_fundo.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;	
+	position: relative;
+	float: right;
+	width: 65%;
+	height: 100%; 	
+}
+
+
+
+
+    
