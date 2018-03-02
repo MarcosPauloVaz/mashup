@@ -112,6 +112,42 @@ html, body{
 	height: 100%; 	
 }
 
+@media (max-width: 768px) {
+	.imagemBackgroun{
+		display: none;
+		background-image: url("../../assets/img/plano_de_fundo.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 720px;	
+		position: relative;
+		float: right;
+		width: 65%;
+		height: 100%; 	
+	}
+	.login-box, .register-box {
+		width: 100%;
+		margin: 0%!important;
+	}
+
+	#right-panel{
+		position: absolute!important;
+		right: 11px!important;
+		top: 94%!important;
+		width: 298px!important;
+		margin-top: -195px!important;
+		height: 40%!important;
+		z-index: 5!important;
+	}
+
+	ul {
+		list-style-type: none!important;
+		padding: 0!important;
+		margin: 0!important;
+		height: 72%!important;
+		width: 292px!important;
+		overflow-y: scroll!important;
+	}
+  }
+
 
 
 
